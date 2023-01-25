@@ -41,30 +41,31 @@ header nav a{
 
 header nav a:hover{
   color: #fff;
+  transition: 0.3s all;
 }
 
 /*filme principal*/
 .filme-principal{
-  font-size:16px;
+  font-size: 14px;
   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/capa-anne.jpg");
-  
-  height:400px;
-  background-size:cover;
-
+  height: 400px;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex;
 }
+
 
 .filme-principal .description{
   margin-top: 10px;
   margin-bottom: 40px;
+  width: 50%; 
 }
 
 .titulo{
   margin-top: 15%;
-  font-size: 40px; 
+  font-size: 35px; 
   font-family:'Trebuchet MS', Arial, sans-serif;
 }
 
@@ -72,11 +73,9 @@ header nav a:hover{
   background: rgba(0,0,0,.50);
   border: none;
   color: white;
-
   padding: 15px 30px;
   margin-right: 15px;
   font-size: 12px;
-  
   cursor: pointer;
   transition: .3s ease all;
 }
